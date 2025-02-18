@@ -1,0 +1,88 @@
+.container{
+    
+    width: 550px;
+    margin: auto;
+    margin-top: 30px;
+    background: white;
+    color: 262626;
+   display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 40px 50px;
+    padding-top: 30px;
+}
+
+.container hr{
+    height: 2px;
+    border: none;
+    background:#707070;
+}
+
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container button{
+    margin:auto;
+    width: 150px;
+    height: 55px;
+    background: #dd239f;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.index{
+    margin-left: 20px;
+    margin: auto;
+    font-size: 18px;
+}
+
+ .container .correct{
+    background: #dffff2;
+    border-color: #00d33f;
+}
+
+.container .wrong{
+    background: #ffebeb;
+    border-color: #f80808;
+}
+button.skip{
+    margin-left: 250px;
+}
+
+.container .name{
+   
+    width: 650px;
+    height: 45px;
+  
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.container .start{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.container .input{
+    height: 20px;
+    width: 250px;
+    margin-left: 15px;
+}
